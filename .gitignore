@@ -1,0 +1,72 @@
+# -----------------------------
+# Python
+# -----------------------------
+*.py[cod]        # скомпилированные файлы Python
+__pycache__/     # папки кэша
+*.pyo
+*.pyd
+*.pyc
+
+# -----------------------------
+# Virtual Environment
+# -----------------------------
+venv/
+env/
+ENV/
+.venv/
+
+# -----------------------------
+# Django
+# -----------------------------
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+# если используешь сборку статики collectstatic
+/static/
+
+# -----------------------------
+# IDEs / Editors
+# -----------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# -----------------------------
+# OS Files
+# -----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -----------------------------
+# Environment variables
+# -----------------------------
+.env
+.env.*  # иногда используют .env.local, .env.production
+
+# -----------------------------
+# Node / frontend (если есть)
+# -----------------------------
+node_modules/
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+
+# -----------------------------
+# Coverage / testing
+# -----------------------------
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+
+# -----------------------------
+# Misc
+# -----------------------------
+*.bak
+*.swp
