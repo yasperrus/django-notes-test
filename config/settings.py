@@ -25,7 +25,7 @@ SECRET_KEY = os.getenv("SECRET_KEY", "fallback-secret-key")
 print(f"DEBUG: {DEBUG}")
 
 ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = ['https://<your-railway-url>.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ["https://django-notes-test-production.up.railway.app"]
 
 # Application definition
 
